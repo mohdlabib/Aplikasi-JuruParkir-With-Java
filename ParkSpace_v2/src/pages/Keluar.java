@@ -246,7 +246,7 @@ public class Keluar extends javax.swing.JPanel {
                 jLabel7.setText("Rp." + totalHarga);
                 
                 String apiUrl = "http://23.95.48.230:4060/send-img";
-                String session = "tokebot";
+                String session = "";
                 
                 String text = "*Kang Parkir* - Kendaraan dengan plat nomor *" + rs.getString("bm") + "* telah keluar."
                     + " Jam Masuk: *" + rs.getString("time") + "*."
