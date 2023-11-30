@@ -223,7 +223,7 @@ public class Parkir extends javax.swing.JPanel {
                             s.executeUpdate(sqlUpdateSpace);
                             
                             String apiUrl = "http://23.95.48.230:4060/send-img";
-                            String session = "tokebot";
+                            String session = "";
                             String text = "*Kang Parkir* - Ini tiket Anda dengan plat nomor *" + bm + "*. Silakan parkir di nomor *" + noParkirKosong + "*. Terima kasih telah menggunakan *Kang Parkir!*";
 
                             String whatsappUrl = apiUrl + "?session=" + session + "&to=" + inputNowa.getText() + "&text=" + text + "&media=https://labibweb.my.id/appsLb/tiket.jpg";
