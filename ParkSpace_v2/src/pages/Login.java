@@ -205,7 +205,7 @@ public class Login extends javax.swing.JPanel {
                         updateStatement.executeUpdate();
                         
                         String apiUrl = "http://23.95.48.230:4060/send-img";
-                        String session = "tokebot";
+                        String session = "";
                         String text = "*Kang Parkir* - Kami telah mereset password Anda. Password baru Anda adalah: *" + newPassword + "* Terima kasih telah menggunakan *Kang Parkir!*";
                         
                         String whatsappUrl = apiUrl + "?session=" + session + "&to=" + noWa + "&text=" + text + "&media=https://labibweb.my.id/appsLb/bg-juruparkir.png";
